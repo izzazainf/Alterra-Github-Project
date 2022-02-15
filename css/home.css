@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../font/roboto/Roboto-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Medium;
+    src: url('../font/roboto/Roboto-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Bold;
+    src: url('../font/roboto/Roboto-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Medium;
+    src: url('../font/roboto/Roboto-Medium.ttf'); 
+  }
+
+  .special-musim{
+      margin-top: 92px;
+  }
+  .sm-title{
+      font-family: Roboto-Bold;
+      font-size: 22px;
+  }
+  .sm-subtitle{
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #636363;
+    margin-top: -10px;
+  }
+
+  .special-musim-list{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  .list-item .card{
+      width: 225px;
+  }
+  .list-item .card .card-img-top{
+    width: 225px; 
+    height: 164px; 
+    object-fit: cover;
+  }
+  .list-item{
+      margin-top: 30px;
+      font-family: Roboto-Regular;
+  }
+  .list-item .card .card-title{
+      font-family: Roboto-Regular;
+      font-weight: bolder;
+      font-size: 18px;
+  }
+  .list-item .card .card-text{
+    color:#636363;
+  }
+  .harga-awal{
+      text-decoration: line-through;
+      font-size: 15px;
+      color:#636363;
+  }
+  .harga-promo{
+    font-size: 18px;
+    color: #47B04B;
+    font-size: bolder;
+}
+    .harga-promo span{
+    color: black;  
+    font-size: 15px;
+    }
+
+  .terjual{
+    margin-top: 20px;
+    color: #636363;
+    font-size: 12px;
+  }

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../font/roboto/Roboto-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Medium;
+    src: url('../font/roboto/Roboto-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Bold;
+    src: url('../font/roboto/Roboto-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Medium;
+    src: url('../font/roboto/Roboto-Medium.ttf'); 
+  }
+
+.user-navbar{
+    height: 100px;
+    width: 100%;
+    background-color: turquoise;
+    display: flex;
+    align-items: baseline;
+    border-bottom: 3px solid grey;
+}
+#logo{
+    height: 62px;
+    margin-left: 62px;
+    margin-top: 20px;
+}
+#search-box{
+  position: absolute;
+  width: 537px;
+  height: 50px;
+  left: 396px;
+  top: 20px;
+  padding-left: 30px;
+  background: #F3F3F3;
+  border: 1px solid #C9D5E2;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-family: 'Roboto-Regular', FontAwesome, sans-serif;
+  font-size: 18px;
+  border-radius: none;
+}
+.user-navbar i{
+  margin-left: 35px;
+}
+
+#navbar-search{
+  width: 537;
+  height: 67;
+}
+.navbar .container .collapse .navbar-nav .nav-item{
+  margin-left: 35px;
+  color: black;
+  text-decoration: none;
+}
+
+.belum-login{
+  font-family: 'Roboto-Bold';
+}
+.belum-login #register{
+  width: 92px;
+  height: 39px;
+  background-color: white;
+  color: #47B04B;
+  border: 2px solid #47B04B;
+  
+}
+.belum-login #login{
+width: 92px;
+height: 39px;
+color: white;
+background-color: #47B04B;
+}

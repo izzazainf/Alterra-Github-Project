@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../font/roboto/Roboto-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Medium;
+    src: url('../font/roboto/Roboto-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Bold;
+    src: url('../font/roboto/Roboto-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Medium;
+    src: url('../font/roboto/Roboto-Medium.ttf'); 
+  }
+  @font-face {
+    font-family: Poppins-Regular;
+    src: url('../font/poppins/Poppins-Regular.ttf'); 
+  }
+  @font-face {
+    font-family: Poppins-Thin;
+    src: url('../font/poppins/Poppins-Thin.ttf'); 
+  }
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../font/poppins/Poppins-Bold.ttf'); 
+  }
+  .store-recommendation img{
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    margin: 30px 30px 30px 30px;
+  }
+
+  .store-recommendation .card{
+      width: 306px;
+      height: 105px;
+      font-family: Poppins-Regular;
+      margin-right: 30px;
+  }
+
+  .store-recommendation h6{
+      font-size: 18px;
+      margin-top: 15px;
+
+  }
+  .store-recommendation{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+  }
+  .pagination{
+      margin-top: 140px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .pagination .page-link{
+      color: #47B04B;
+  }
